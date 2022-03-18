@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Karla&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    background-color: #1C1C1C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    width: 550px;
+    background: #1F2937;
+    padding: 118px 52px 46px 52px;
+}
+h1 span{
+    color: #D97706;
+}
+.gray-color{
+    color: #D5D4D8;
+    margin: 10px 0 50px 0;
+}
+button{
+    padding: 9px 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #D97706;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 7px;
+}
+button img{
+    width: 14px;
+    height: 18px;
+}
+.password{
+    width: 211px;
+    min-height: 40px;
+    background-color: #273549;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    color: #D97706;
+}
+.password img{
+    width: 20px;
+    filter: brightness(.12);
+}
+.passowrds{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin-top: 35px;
+    padding-top: 35px;
+    border-top: 1px solid #2F3E53;
+    column-gap: 24px;
+    row-gap: 27px;
+}
