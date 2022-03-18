@@ -38,6 +38,9 @@ button{
     cursor: pointer;
     border-radius: 7px;
 }
+button:hover{
+    opacity: .4;
+}
 button img{
     width: 14px;
     height: 18px;
