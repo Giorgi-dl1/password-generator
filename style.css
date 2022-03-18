@@ -39,7 +39,7 @@ button{
     border-radius: 7px;
 }
 button:hover{
-    opacity: .4;
+    opacity: .8;
 }
 button img{
     width: 14px;
